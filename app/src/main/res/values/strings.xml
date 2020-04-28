@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Aapka Swasthya Sathi</string>
+    <!-- Login Page -->
+    <string name="app_display_title">Aapka Swasthya Sathi</string>
+    <string name="hint_phone_number">Phone number</string>
+    <string name="hint_password">Enter password</string>
+    <string name="login">Login</string>
+    <string name="or">OR</string>
+    <string name="Signup">Sign Up</string>
+
+    <!-- Sign In Page -->
+    <string name="hint_name">Name</string>
+    <string name="hint_pincode">Pincode</string>
+    <string name="hint_gender">Gender</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_occupation">Occupation</string>
+    <string name="hint_income_group">Income Group</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">Other</string>
+    <string name="User_details">User Details</string>
+    <string name="empt_field_check">Please fill up all the fields</string>
+
+    <!-- landing In Page -->
+    <string name="Hello_User">Hello User!</string>
+    <string name="message">Welcome to\nAapka Swasthya Sathi</string>
+    <string name="Click_to_Login">Click to Login</string>
+
+    <!-- Questions In Page -->
+    <string name="page_title">COVID-19 \nAssessment Page</string>
+    <string name="ques_1">Are you experiencing any of the following symptoms ?</string>
+    <string name="option_cough">Dry Cough</string>
+    <string name="option_tiredness">Tiredness</string>
+    <string name="option_aches_pains">Aches and Pains</string>
+    <string name="option_nasal_congestions">Nasal congestion and runny nose</string>
+    <string name="option_sore_throat">Sore throat</string>
+    <string name="option_fever">Fever</string>
+    <string name="option_difficulty_in_breathing">Difficulty in Breathing</string>
+    <string name="option_none_of_above">None of the Above</string>
+    <string name="ques_2">Have you ever had any of the following ?</string>
+    <string name="option_diabetes">Diabetes</string>
+    <string name="option_hypertension">Hypertension</string>
+    <string name="option_lung_disease">Lung Disease</string>
+    <string name="ques_3">Have you Made long Distance or International Travel ?</string>
+    <string name="ques_4">Have you been come to contact with the person with any of the COVID symptoms / with travel history ?</string>
+    <string name="option_yes_no">Yes-No</string>
+    <string name="btn_submit">Submit</string>
+    <string name="option_blood_sugar">Blood Sugar</string>
+
+    <string name="Toast_nota">If you select None of the above then please deselect other options</string>
+    <string name="Safe_message">You are safe, Please Stay Safe at Home\nPlease follow the follow the follwing instructions</string>
+
+    <string name="Nothing_selected">Please Select something!</string>
+    <string name="no_other_complication">"It is good that you do not have any other complications"</string>
+    <string name="Hospital_list">Please refer to the Hospitals mentioned below:\n1. M R Bangur Hospital\n2. Beleghata I.D. And B.G. Hospital\n\nSuggested Doctor Name:\nDr. T. Mnop (Mob: +91 7667XXXXXX)\nDr. F. Tlkp (Mob: +91 9087XXXXXX)\nDr. S. Asdhge (Mob: +91 9987XXXXXX)\n\nPlease call the number mentioned below for emergencies\n1800 000 XXXX
+    </string>
+    <string name="Covid_symptoms">Your COVID-19 Symptoms are:\n\n</string>
+    <string name="non_Covid_symptoms">Your other complications are: \n\n</string>
+    <string name="suspect_corona">There is a high chance that you are infected of COVID-19.\nPlease take necessary steps immediately!</string>
+    <string name="low_severity">You may or may not be infected of COVID-19.\n To ensure safety please stay at home.</string>
+
+
+    <!-- Final In Page -->
+    <string name="thank_you_message">My Analysis</string>
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:padding="10sp"
+    tools:context=".CovidQuestions">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/page_title"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:layout_marginTop="5sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="5sp"
+            android:textSize="20sp"
+            android:text="@string/ques_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+        <CheckBox
+            android:id="@+id/cough"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_cough"
+            android:buttonTint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:layout_marginTop="5sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/q2" />
+        <CheckBox
+            android:id="@+id/fever"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_fever"
+            android:textSize="20sp"
+            android:layout_marginTop="5sp"
+            android:textColor="@color/colorAccent"
+            android:buttonTint="@color/colorAccent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cough" />
+        <CheckBox
+            android:id="@+id/diffinbreath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_difficulty_in_breathing"
+            android:textSize="20sp"
+            android:layout_marginTop="5sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:buttonTint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fever" />
+
+        <CheckBox
+            android:id="@+id/tiredness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_tiredness"
+            android:textSize="20sp"
+            android:layout_marginTop="5sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:buttonTint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/diffinbreath" />
+        <CheckBox
+            android:id="@+id/achespains"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_aches_pains"
+            android:textSize="20sp"
+            android:layout_marginTop="5sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:buttonTint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tiredness" />
+        <CheckBox
+            android:id="@+id/nasal_congestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_nasal_congestions"
+            android:textSize="20sp"
+            android:layout_marginTop="5sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:buttonTint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/achespains" />
+        <CheckBox
+            android:id="@+id/sore_throat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_sore_throat"
+            android:textSize="20sp"
+            android:layout_marginTop="5sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:buttonTint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nasal_congestion" />
+
+        <CheckBox
+            android:id="@+id/nota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_none_of_above"
+            android:buttonTint="@color/colorAccent"
+            android:textSize="20sp"
+            android:layout_marginTop="5sp"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sore_throat" />
+
+
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40sp"
+            android:text="@string/btn_submit"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            app:rippleColor="#ABC1BF"
+            app:cornerRadius="32dp"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nota" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>

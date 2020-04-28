@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">In Development</string>
+    <!-- Login Page -->
+    <string name="app_display_title">SWASTHYA SATHI</string>
+    <string name="hint_phone_number">फ़ोन नंबर</string>
+    <string name="hint_password">पास वर्ड दर्ज करें</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="or">या</string>
+    <string name="Signup">रजिस्टर करें</string>
+
+    <!-- Sign In Page -->
+    <string name="hint_name">नाम</string>
+    <string name="hint_pincode">पिनकोड</string>
+    <string name="hint_gender">लिंग</string>
+    <string name="hint_age">उम्र</string>
+    <string name="hint_occupation">व्यवसाय</string>
+    <string name="hint_income_group">आय समूह</string>
+    <string name="gender_male">पुरुष</string>
+    <string name="gender_female">महिला</string>
+    <string name="gender_other">अन्य</string>
+    <string name="empt_field_check">कृपया सभी फ़ील्ड भरें</string>
+    <string name="User_details">उपभोक्ता का विवरण</string>
+
+    <!-- landing In Page -->
+    <string name="Hello_User">हेलो यूजर!</string>
+    <string name="message">आपका स्वागत है SWASTHYA SATHI में</string>
+    <string name="Click_to_Login">लॉगिन करने के लिए क्लिक करें</string>
+
+    <!-- Questions In Page -->
+    <string name="page_title">COVID-19 \nमूल्यांकन पृष्ठ</string>
+    <string name="ques_1">क्या आप निम्नलिखित लक्षणों में से किसी का अनुभव कर रहे हैं?</string>
+    <string name="option_cough">सूखी खांसी</string>
+    <string name="option_tiredness">थकान</string>
+    <string name="option_aches_pains">दर्द एवं पीड़ा</string>
+    <string name="option_nasal_congestions">नाक की भीड़ और बहती नाक</string>
+    <string name="option_sore_throat">गले में खरास</string>
+    <string name="option_fever">बुखार</string>
+    <string name="option_difficulty_in_breathing">सांस लेने में कष्ट</string>
+    <string name="option_none_of_above">इनमे से कोई भी नहीं</string>
+    <string name="ques_2">क्या आपने कभी निम्नलिखित में से कोई भी किया है?</string>
+    <string name="option_diabetes">मधुमेह</string>
+    <string name="option_hypertension">उच्च रक्तचाप</string>
+    <string name="option_lung_disease">फेफड़ों की बीमारी</string>
+    <string name="ques_3">क्या आपने लंबी दूरी या अंतर्राष्ट्रीय यात्रा की है?</string>
+    <string name="ques_4">क्या आप COVID लक्षणों में से किसी व्यक्ति के साथ / यात्रा इतिहास के साथ संपर्क में आए हैं?</string>
+    <string name="option_yes_no">हाँ - नही</string>
+    <string name="btn_submit">प्रस्तुत</string>
+    <string name="option_blood_sugar">उच्च रक्त शर्करा</string>
+    <string name="Toast_nota">यदि आप उपरोक्त में से कोई नहीं चुनते हैं, तो कृपया अन्य विकल्पों का चयन न करें</string>
+    <string name="Safe_message">आप सुरक्षित हैं, कृपया घर पर सुरक्षित रहें \ n कृपया निम्नलिखित निर्देशों का पालन करें</string>
+    <string name="Nothing_selected">आपने कोई विकल्प नहीं चुना</string>
+    <string name="no_other_complication">यह अच्छा है कि आपको कोई अन्य जटिलता नहीं है</string>
+    <string name="Covid_symptoms">आपके COVID-19 लक्षण हैं:\n\n</string>
+    <string name="non_Covid_symptoms">आपकी अन्य जटिलताएँ हैं: \n\n</string>
+    <string name="suspect_corona">इस बात की अधिक संभावना है कि आप COVID-19 से संक्रमित हैं। \ n कृपया तुरंत आवश्यक कदम उठाएं!</string>
+    <string name="low_severity">आप COVID-19 से संक्रमित हो सकते हैं। सुरक्षा सुनिश्चित करने के लिए कृपया घर पर रहें।</string>
+    <string name="Hospital_list">कृपया नीचे उल्लिखित अस्पतालों का दौरा करें:\n\n1. M R Bangur Hospital\n2. Beleghata I.D. And B.G. Hospital</string>
+
+    <!-- Final In Page -->
+    <string name="thank_you_message">मेरा विश्लेषण</string>
+
+</resources>

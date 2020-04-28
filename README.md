@@ -1,2 +1,1 @@
-# C:\Users\Administrator\Desktop\Covid19aapkaswasthyasathi
- 
+A repository for Covid 2020 Hackathon
